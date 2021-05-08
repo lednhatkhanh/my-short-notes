@@ -1,0 +1,23 @@
+{
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+  "plugins": ["simple-import-sort"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "next"
+  ],
+  "rules": {
+    "simple-import-sort/imports": ["error", {
+      "groups": [
+        ["^react$", "^next", "^@?\\w"],
+        ["^src"],
+        ["^"],
+        ["^\\."],
+        ["^\\u0000"]
+      ]
+    }],
+    "simple-import-sort/exports": "error"
+  }
+}
