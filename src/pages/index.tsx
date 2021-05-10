@@ -19,7 +19,7 @@ function getRandomArrayItem<T>(arr: T[]): T | undefined {
 }
 
 export default function HomePage({ notes }: Props): React.ReactElement {
-  const [todayNote, setTodayNote] = React.useState<Note | undefined>(undefined);
+  const [todayNote, setTodayNote] = React.useState<Note | undefined>(() => getRandomArrayItem(notes));
 
   React.useEffect(() => {
     function handleNextButtonClicked() {
