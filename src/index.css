@@ -1,0 +1,3 @@
+#__next {
+  @apply flex flex-col h-screen bg-primary;
+}
