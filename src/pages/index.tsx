@@ -58,7 +58,7 @@ export default function HomePage({ notes }: Props): React.ReactElement {
 
       <footer className="flex justify-end px-3 py-1 bg-white bg-opacity-75 backdrop-filter backdrop-blur-lg">
         <span>Built with ❤️ by Khanh Le</span>
-        <div className="w-3" />
+        <div className="w-4" />
         <a href="https://github.com/lednhatkhanh" target="_blank" rel="noreferrer noopener">
           <Image height={26} width={26} alt="Github" src="https://unpkg.com/simple-icons@v4/icons/github.svg" />
         </a>
