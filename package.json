@@ -1,8 +1,7 @@
 {
-  "name": "daily-notes",
+  "name": "my-short-notes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "next": "^10.2.1-canary.3",
     "react": "^17.0.2",

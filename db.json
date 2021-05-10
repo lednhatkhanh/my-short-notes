@@ -11,6 +11,9 @@
     },
     {
       "content": "“Never complain, never explain. Resist the temptation to defend yourself or make excuses.” - Brian Tracy"
+    },
+    {
+      "content": "Typescript: use AnyFunction instead of Function type"
     }
   ]
 }
