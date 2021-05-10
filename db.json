@@ -1,0 +1,13 @@
+{
+  "notes": [
+    {
+      "content": "When looking at a CV, also make sure that the candidate's experience is also related to our projects' area"
+    },
+    {
+      "content": "Set no-cache header to index.html file to prevent caching index.html file"
+    },
+    {
+      "content": "V8 is a runtime environment that executes JS code"
+    }
+  ]
+}

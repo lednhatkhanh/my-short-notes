@@ -3,7 +3,11 @@ module.exports = {
   purge: ['./src/**/*.tsx'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#bd1874',
+      },
+    },
   },
   variants: {
     extend: {},
