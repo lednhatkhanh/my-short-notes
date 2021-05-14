@@ -3,4 +3,7 @@ module.exports = {
   images: {
     domains: ['unpkg.com'],
   },
+  future: {
+    webpack5: true,
+  },
 };
